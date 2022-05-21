@@ -1,7 +1,6 @@
 import Head from "next/head";
-import Dashboard from "../components/Dashboard/Dashboard";
 
-export default function Home() {
+export default function Support() {
   return (
     <div>
       <Head>
@@ -12,8 +11,14 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <main className="">
-        <Dashboard />
+      <main className="px-10">
+        <div className="mt-3 w-full flex flex-col justify-center items-center gap-2">
+          <h1 className="text-xl font-bold">
+            This application is developed by Planet X Inc{" "}
+          </h1>
+          <span className="text-2xl font-bold">Our Contact Number:</span>
+          <h1 className="text-xl">01713-640923</h1>
+        </div>
       </main>
     </div>
   );

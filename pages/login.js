@@ -1,7 +1,6 @@
 import Head from "next/head";
-import Dashboard from "../components/Dashboard/Dashboard";
 
-export default function Home() {
+export default function Login() {
   return (
     <div>
       <Head>
@@ -13,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <main className="">
-        <Dashboard />
+        <div className="">logo</div>
       </main>
     </div>
   );
